@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> {
                 FadeAnimation(
                   1,
                   Text(
-                    "Hey there, \n Whats your name",
+                    "Hello human, \nWhats do people call you ?",
                     style: TextStyle(
                       fontSize: 30,
                       color: Colors.white,
@@ -84,7 +84,7 @@ class _HomePageState extends State<HomePage> {
                           child: TextField(
                             decoration: InputDecoration(
                               border: InputBorder.none,
-                              hintText: "Name",
+                              hintText: "Please enter you name",
                               hintStyle: TextStyle(color: Colors.grey),
                             ),
                           ),
